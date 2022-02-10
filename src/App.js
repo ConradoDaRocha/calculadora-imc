@@ -1,5 +1,6 @@
 import './app.css'
 import { useState } from 'react'
+import logo from './logo.png'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   const [altura, setAltura] = useState('')
 
   const [mensagem, setMensagem] = useState('')
+
 
   function calcularImc(){
     const alt = altura / 100;
@@ -22,14 +24,13 @@ function App() {
     }else if(imc > 34.9){
       setMensagem("Cuidado, obesidade! Seu IMC: " +imc.toFixed(2))
     }
-  
-   
-
   }
 
   return (
     <div className="app">
-      <h1>Calculadora IMC</h1>
+      <h1>
+        <img src={logo} alt='logoimc'/>
+      </h1>
       <span>Vamos calcular seu índice de massa corporal.</span>
 
       <div className="area-input">
@@ -50,9 +51,7 @@ function App() {
 
       </div>
       <h3>{mensagem}</h3>
-      
     </div>
   );
 }
-
 export default App;
