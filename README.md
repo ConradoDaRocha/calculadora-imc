@@ -1,5 +1,5 @@
 ## Calculando o índice de massa corporal.
 
 <div>
-    <img src="src/wallpapper.jpg">
+    <img src="src/walpapper.jpg">
 </div>
