@@ -1,6 +1,6 @@
 ## Calculando o índice de massa corporal.
 
- [Clique aqui para acessar.](https://mdouglasls.github.io/portfolio.github.io/)
+ [Clique aqui para acessar.](https://indicedemassacorporal.netlify.app/)
 
 <div>
     <img src="src/walpapper.jpg">
